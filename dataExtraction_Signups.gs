@@ -39,7 +39,7 @@ function signupsLiveUpdating() {
     // Set the background color for the headers to blue
     var headerRange = sheetSUs.getRange(1, 1, 1, headers.length);
     headerRange.setBackground('#6A0D91'); // Blue color
-    headerRange.setFontColor('#FFFFFF'); // set font color to white for better contrast
+    headerRange.setFontColor('#FFFFFF'); // set font color to white 
   }
 
   var page_number = 1;

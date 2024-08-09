@@ -1,4 +1,4 @@
-## Automated SignUp Data Extraction from Expa to Google Sheets - Appscript
+## Automated SignUp Data Extraction from Expa to Google Sheets - Apps Script
 
 This project provides a script to automate the extraction and updating of sign-up data from the EXPA API to Google Sheets. The script fetches a live list of sign-ups and updates their statuses in the Google Sheet, eliminating the need for manual data handling.
 

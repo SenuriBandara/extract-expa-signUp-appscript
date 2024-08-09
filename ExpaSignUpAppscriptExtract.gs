@@ -6,7 +6,7 @@ function dataExtraction_Signups(query) {
 
   };
   console.log(query)
-  var response = UrlFetchApp.fetch(`gisApiGraphqlUrl_withAccessToken`, requestOptions);
+  var response = UrlFetchApp.fetch(`gisApiUrl_withAccessToken`, requestOptions);
   console.log(response.getContentText())
   var recievedDate = JSON.parse(response.getContentText())["data"]["people"];
   return recievedDate;

@@ -18,8 +18,8 @@ function signupsLiveUpdating() {
 
   // Update the endDate with today's date in DD/MM/YYYY format
   var options = { timeZone: 'Asia/Colombo', day: '2-digit', month: '2-digit', year: 'numeric' };
- // var endDate = today.toLocaleDateString('en-GB', options);
-  var formattedToday = today.toLocaleDateString('en-GB', options);
+  var endDate = today.toLocaleDateString('en-GB', options);
+  var formattedToday = endDate;
   console.log(formattedToday);
 
   var sheetSUs = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("SignUps");

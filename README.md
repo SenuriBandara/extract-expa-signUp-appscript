@@ -23,13 +23,11 @@ The script automates the collection and updating of sign-up data from the EXPA A
 - Opportunity Applications Count
 - Latest Graduation Year
 - Campaign Name
-- Faculty
+- Application ID
 - First Applied At
 - First Approved At
 - First Realized At
 - First Finished At
-- Year of Birth
-- ID
 
 ## Prerequisites
 
@@ -111,13 +109,12 @@ The script updates the following columns in the Google Sheet:
 - Opportunity Applications Count
 - Latest Graduation Year
 - Campaign Name
-- Faculty
+- Application ID
 - First Applied At
 - First Approved At
 - First Realized At
 - First Finished At
-- Year of Birth
-- ID
+
 
 ## Troubleshooting
 

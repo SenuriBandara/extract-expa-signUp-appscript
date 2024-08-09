@@ -223,7 +223,7 @@ function signupsLiveUpdating() {
      
 
         //pushing data to old rows
-       // sheetSUs.getRange(ids.indexOf(parseInt(data[i].id)) + 2, 1, 1, //row[0].length).setValues(row);
+        sheetSUs.getRange(ids.indexOf(parseInt(data[i].id)) + 2, 1, 1, row[0].length).setValues(row);
       }
     }
   }

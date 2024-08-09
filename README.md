@@ -39,7 +39,7 @@ The script automates the collection and updating of sign-up data from the EXPA A
 
 ## Files Included
 
-- `main.gs`: The main Google Apps Script file
+- `ExpaSignUpExtract.gs`: The main Google Apps Script file
 - `README.md`: Documentation on how to use the script
 
 ## Setup Instructions
@@ -53,7 +53,7 @@ The script automates the collection and updating of sign-up data from the EXPA A
 
 1. In your Google Sheet, go to `Extensions > Apps Script`.
 2. Delete any existing code in the script editor.
-3. Copy and paste the code from `main.gs` into the script editor.
+3. Copy and paste the code from `ExpaSignUpExtract.gs` into the script editor.
 
 ### 3. Configure the Script
 
